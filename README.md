@@ -41,7 +41,7 @@ Now we will extract the ArchLinuxARM-orangepizero.tar.gz onto the mounted SD. It
 
 ###### STEP FOUR
 
-Now we need to write the U-boot image onto the SD. Run `cd u-boot` and `dd if=u-boot-sunxi-with-spl.bin of=/dev/sdX bs=1024 seek=8`. If it doesn't spit out a error message I congratulate you. You are officially ready to stick that SD into your Orange Pi Zero and feeling proud. You are really the man ... or women if thats the case.
+Now we need to write the U-boot image onto the SD. Run `dd if=u-boot-sunxi-with-spl.bin of=/dev/sdX bs=1024 seek=8`. If it doesn't spit out a error message I congratulate you. You are officially ready to stick that SD into your Orange Pi Zero and feeling proud. You are really the man ... or women if thats the case.
 
 ## Some usefull resources
 
