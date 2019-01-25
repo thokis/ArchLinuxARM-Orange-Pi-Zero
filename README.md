@@ -41,7 +41,7 @@ Extract the rootfs onto the filesystem. Run `tar -xpf ArchLinuxARM-orangepizero.
 
 ###### FINAL STEP
 
-Write the U-boot image. Run `dd if=u-boot-sunxi-with-spl.bin of=/dev/sdX bs=1024 seek=8`. Thats it. The microSD is ready to use.
+Write the U-boot image. Run `dd if=u-boot-sunxi-with-spl.bin of=/dev/sdX bs=1024 seek=8`.
 
 ## Some usefull resources
 
