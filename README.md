@@ -29,7 +29,7 @@ sudo su
 
 ###### STEP ONE
 
-Partition the microSD. Launch `fdisk /dev/sdX`. Create a new partition layout by typing `o` and pressing `Enter`. Now type in `n` and 5x pressing `Enter` to create a new partition. Now you type `w` and press `Enter` to save the layout.
+Partition the microSD. Launch `fdisk /dev/sdX`. Create a new partition layout by typing `o` and pressing `Enter`. Now type in `n` and 5x pressing `Enter` to create a new partition. At last type `w` and press `Enter` to save the layout.
 
 ###### STEP TWO
 
@@ -39,9 +39,9 @@ Create a filesystem and mount it. Run `mkfs.ext4 /dev/sdX1` and wait until it is
 
 Extract the rootfs onto the filesystem. Run `tar -xpf ArchLinuxARM-orangepizero.tar.gz -C root`. This might take a while, depending on the microSD speed class and/or brand. Unmount your SD with `umount root`.
 
-###### STEP FOUR
+###### FINAL STEP
 
-Write the U-boot image. Run `dd if=u-boot-sunxi-with-spl.bin of=/dev/sdX bs=1024 seek=8`.
+Write the U-boot image. Run `dd if=u-boot-sunxi-with-spl.bin of=/dev/sdX bs=1024 seek=8`. Thats it. The microSD is ready to use.
 
 ## Some usefull resources
 
