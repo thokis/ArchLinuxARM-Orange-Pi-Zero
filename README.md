@@ -12,7 +12,7 @@ UART is enabled with an baudrate of 115200.
 
 ## Preparation
 
-You need an microSD (min. 2GB), uboot-tools, fdisk, wget, git and some time.
+You need an microSD, uboot-tools, fdisk, wget, git and some time.
 
 ## Install
 
