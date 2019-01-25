@@ -23,6 +23,7 @@ Clone this repository and cd into it. Also download the tar.gz archive and becom
 ```
 git clone https://github.com/thokis/ArchLinuxARM-Orange-Pi-Zero.git archlinuxarm_orangepizero
 cd archlinuxarm_orangepizero
+mkdir root
 wget https://github.com/thokis/ArchLinuxARM-Orange-Pi-Zero/releases/download/1.0/ArchLinuxARM-orangepizero.tar.gz
 sudo su
 ```
