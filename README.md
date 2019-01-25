@@ -29,7 +29,7 @@ sudo su
 
 ###### STEP ONE
 
-Partition the microSD. Launch `fdisk /dev/sdX`. Create a new partition layout by typing `o` and pressing `Enter`. Now type in `n` and pressing `Enter` 5x to create a new partition. At last type `w` and press `Enter` to save the layout.
+Partition the microSD. Launch `fdisk /dev/sdX`. Create a new partition layout by typing `o` and pressing `Enter`. Type in `n` and pressing `Enter` 5x to create a partition. Save the layout by typing `w` and press `Enter`.
 
 ###### STEP TWO
 
