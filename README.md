@@ -47,5 +47,7 @@ Write the U-boot image. Run `dd if=u-boot-sunxi-with-spl.bin of=/dev/sdX bs=1024
 ## Some usefull resources
 
 http://irq5.io/2018/07/24/boot-time-device-tree-overlays-with-u-boot/
+
 https://i0.wp.com/oshlab.com/wp-content/uploads/2016/11/Orange-Pi-Zero-Pinout-banner2.jpg?fit=1200%2C628&ssl=1
+
 http://esp8266-server.de/OrangePi/dateien/Audio.png
