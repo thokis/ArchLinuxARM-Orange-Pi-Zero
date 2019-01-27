@@ -19,8 +19,8 @@ You need an microSD, uboot-tools, fdisk, wget, git and some time.
 Clone this repository and cd into it. Also download the tar.gz archive and become root.
 
 ```
-git clone https://github.com/thokis/ArchLinuxARM-Orange-Pi-Zero.git archlinuxarm_orangepizero
-cd archlinuxarm_orangepizero
+git clone https://github.com/thokis/ArchLinuxARM-Orange-Pi-Zero.git orangepizero
+cd orangepizero
 mkdir root
 wget https://github.com/thokis/ArchLinuxARM-Orange-Pi-Zero/releases/download/1.0/ArchLinuxARM-orangepizero.tar.gz
 sudo su
