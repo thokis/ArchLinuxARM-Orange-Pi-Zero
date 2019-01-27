@@ -4,8 +4,6 @@ This image was created with the following guide : https://wiki.archlinux.org/ind
 
 WiFi doesn't work.
 
-XR819 is practically ununsable on mainline kernel.
-
 Preconfigured U-boot with the sun8i-h3-analog-codec.dtbo
 
 UART is enabled with an baudrate of 115200.
