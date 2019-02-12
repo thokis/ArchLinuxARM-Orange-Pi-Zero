@@ -22,7 +22,7 @@ Clone this repository and cd into it. Also download the tar.gz archive and becom
 git clone https://github.com/thokis/ArchLinuxARM-Orange-Pi-Zero.git orangepizero
 cd orangepizero
 mkdir root
-wget https://github.com/thokis/ArchLinuxARM-Orange-Pi-Zero/releases/download/1.0/ArchLinuxARM-orangepizero.tar.gz
+wget http://os.archlinuxarm.org/os/ArchLinuxARM-armv7-latest.tar.gz
 sudo su
 ```
 
@@ -36,7 +36,7 @@ Create a filesystem and mount it. Run `mkfs.ext4 /dev/sdX1` and wait until it is
 
 ###### STEP THREE
 
-Extract the rootfs onto the filesystem. Run `tar -xvpf ArchLinuxARM-orangepizero.tar.gz -C root`. This might take a while, depending on the microSD speed class and/or brand. Unmount your SD with `umount root`.
+Extract the rootfs onto the filesystem. Run `tar -xvpf http://os.archlinuxarm.org/os/ArchLinuxARM-armv7-latest.tar.gz -C root`. This might take a while, depending on the microSD speed class and/or brand. Unmount your SD with `umount root`.
 
 ###### FINAL STEP
 
