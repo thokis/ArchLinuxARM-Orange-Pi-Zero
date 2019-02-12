@@ -36,7 +36,7 @@ Create a filesystem and mount it. Run `mkfs.ext4 /dev/sdX1` and wait until it is
 
 ###### STEP THREE
 
-Extract the rootfs onto the filesystem. Run `tar -xpf ArchLinuxARM-orangepizero.tar.gz -C root`. This might take a while, depending on the microSD speed class and/or brand. Unmount your SD with `umount root`.
+Extract the rootfs onto the filesystem. Run `tar -xvpf ArchLinuxARM-orangepizero.tar.gz -C root`. This might take a while, depending on the microSD speed class and/or brand. Unmount your SD with `umount root`.
 
 ###### FINAL STEP
 
