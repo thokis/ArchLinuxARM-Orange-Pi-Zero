@@ -36,7 +36,7 @@ Create a filesystem and mount it. Run `mkfs.ext4 /dev/sdX1` and wait until it is
 
 ###### STEP THREE
 
-Extract the rootfs onto the filesystem. Run `bsdtar -xvpf http://os.archlinuxarm.org/os/ArchLinuxARM-armv7-latest.tar.gz -C root`. This might take a while, depending on the microSD speed class and/or brand. 
+Extract the rootfs onto the filesystem. Run `bsdtar -xvpf ArchLinuxARM-armv7-latest.tar.gz -C root`. This might take a while, depending on the microSD speed class and/or brand. 
 
 Copy boot directory to root with `cp -r boot/* root/boot/`. Unmount your SD with `umount root`.
 
